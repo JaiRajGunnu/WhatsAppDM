@@ -1,0 +1,151 @@
+<style>
+
+  	.etool-wrapper {
+		border-top: 0;
+		border-bottom: 0;
+	}
+	.etool-adsense {
+		height: auto;
+		border: 1px solid #ccc;
+		border-left: 0;
+		border-right: 0;
+		text-align: center;
+		width: 100%;
+	}
+	#top-link-adsense {
+    margin-bottom: 10px;
+	}
+	#etoolMidAd {
+		max-height: 125px;
+	}
+	.etool-label {
+		color: #ff0000;
+		font-size: 18px;
+		margin-left: 5px;
+	}
+	.etool-selection {
+    background-color: #ffffff;
+    border: 0.5px solid #4c4c4c;
+    color: #000000ed;
+    font-weight: 300;
+    width: 100%;
+	}
+	.etool-legacy-text,
+    .etool-unicode-text {
+        border-bottom: 1px solid grey;
+    }
+    .etool-textarea {
+        width: 99%;
+        margin-left:4px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+		border-color: #4d90fe;
+    }
+	.flex-box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		!align-content: center;
+		margin: 0px 3px;
+		!text-align: center;
+		padding: 1px;
+	}
+	.etool-title {
+		border: 1px solid #1565C0;
+		background-color: #1565C0;
+		margin: 0;
+	}
+	.etool-title h3 {
+		color: #ffffff;
+		text-align: center;
+		margin: 0px 4px;
+		padding: 0;
+		font-size: 22px;
+	}
+	!.etool-button {
+		padding: 1px 5px;
+		background-color: #333;
+        color: #fff;
+		border: 1px solid #333;
+		border-radius: 3px;
+		cursor: pointer;
+	}
+	.etool-button:hover {
+		!background-color: #fff;
+		color:#1e90ff;
+		!border-color: #1e90ff;
+	}
+	a.etool-button{
+		text-decoration: none;
+	}
+	.etool-label-button {
+
+	}
+	.etool-label-button:hover{
+
+	}	
+    button:focus {
+		outline: 0;
+	}
+  
+  .etool-masterpage-list{
+	  border-bottom: 1px solid #87cefa;
+  }
+
+  
+disc.desc:after{content:'\f071';font-family:fontawesome; padding-right: 12px;}
+
+.ak-div-wa
+  {
+  width:100%;
+  
+    box-sizing: border-box;
+    border: 1px solid #ffffff29;
+    border-radius: 10px;
+    min-width: 20%;
+    font-size: 17px;
+    background-color: #1d2d59;
+  }
+
+ .ak-input{
+    width:80%;
+    padding: 8px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-width: 20%;
+    font-size: 17px;
+    font-family: hammersmith one;
+    margin-left: -3px;
+    border-style: none;
+    color:black;
+  }
+
+  .ak-button-gd {
+    background-color: #08a743;
+    color: white;
+    padding: 08px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:hammersmith one; 
+    font-size: 13.5px;
+    margin: 15px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+  }
+  .ak-button-gd:hover {
+   background-color: #08130c;
+   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.9);
+   color: white;
+  }
+  
+  
+</style>
