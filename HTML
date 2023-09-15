@@ -1,68 +1,74 @@
-  <span style="font-family: Fredoka One; font-size: medium;"><span style="color: red;"><disc class="desc"></disc><b>Alert</b></span>
-</span><hr style="background-color: red; border-width: 0px; color: grey; height: 2px;" />
-<h5 style="margin-top: 10px; text-align: left;"><span style="font-family: Fredoka One; font-weight: normal;">91 must be written in the below box. Message can't be sent if you remove 91. Write the number on the next like, 9199XXXXX159. &amp; You can use 'mic' for voice typing.</span></h5>
-<br />
-<center>
-  
-<div id="info" style="background: rgb(17, 21, 56); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.16); color: rgba(255, 255, 0, 0.88); font-family: &quot;hammersmith one&quot;; font-size: 16px; margin-bottom: 12px; padding: 3px 6px; visibility: visible;">
-<div id="info_start">
-🚨  Tap 'Mic' for voice typing.<br />
-Switch language, to type in your regional language. </div>
-<div id="info_speak_now" style="display: none;">
-🚨  Speak now! 
- </div>
-<div id="info_no_speech" style="display: none;">
-🚨  No speech was detected.
- </div>
-<div id="info_no_microphone" style="display: none;">
-🚨  Ensure that a microphone configured correctly.
- </div>
-<div id="info_allow" style="display: none;">
-🚨  Click the "Allow" button, to enable your microphone.
- </div>
-<div id="info_denied" style="display: none;">
-🚨  Microphone permission denied. Allow microphone to use voice typing.
-</div>
-<div id="info_blocked" style="display: none;">
-🚨  Microphone permission blocked. To change, go to <a href="about:invalid#zSoyz">chrome://settings/contentExceptions#media-stream</a>
- </div>
-<div id="info_upgrade" style="display: none;">
-🚨  This facility is not supported by your browser. Upgrade to <a href="https://www.google.com/chrome" target="_blank">Chrome</a>.
- </div>
-</div>
-
- <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-  <div class="ak-div-wa">
-     <center>
-    <br />
-    <b><font color="white">Send  <i class="fa fa-whatsapp" style="padding-left: 6px; padding-right: 4px;"></i> direct message ..</font></b> </center>
-  <form action="https://api.whatsapp.com/send" method="GET">
-  <br />
- <center>
-    <iconify-icon data-icon="bx:bxs-phone" style="background: rgb(0, 5, 53); border-bottom-left-radius: 15px; border-top-left-radius: 15px; color: white; font-size: 37px; padding-left: 8px;"></iconify-icon>
-    <input class="ak-input" maxlength="12" minlength="12" name="phone" inputmode="numeric"  value="91" required/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="your-stylesheet.css"> <!-- Add your stylesheet link here if needed -->
+</head>
+<body>
+    <span style="font-family: Fredoka One; font-size: medium;">
+        <span style="color: red;"><disc class="desc"></disc><b>Alert</b></span>
+    </span>
+    <hr style="background-color: red; border-width: 0px; color: grey; height: 2px;" />
+    <h5 style="margin-top: 10px; text-align: left;">
+        <span style="font-family: Fredoka One; font-weight: normal;">91 must be written in the below box. Message can't be sent if you remove 91. Write the number on the next line, 9199XXXXX159. &amp; You can use 'mic' for voice typing.</span>
+    </h5>
+    <center>
+        <div id="info" style="background: rgb(17, 21, 56); border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.16); color: rgba(255, 255, 0, 0.88); font-family: &quot;hammersmith one&quot;; font-size: 16px; margin-bottom: 12px; padding: 3px 6px; visibility: visible;">
+            <div id="info_start">
+                🚨  Tap 'Mic' for voice typing.<br />
+                Switch language, to type in your regional language.
+            </div>
+            <div id="info_speak_now" style="display: none;">
+                🚨  Speak now!
+            </div>
+            <div id="info_no_speech" style="display: none;">
+                🚨  No speech was detected.
+            </div>
+            <div id="info_no_microphone" style="display: none;">
+                🚨  Ensure that a microphone is configured correctly.
+            </div>
+            <div id="info_allow" style="display: none;">
+                🚨  Click the "Allow" button to enable your microphone.
+            </div>
+            <div id="info_denied" style="display: none;">
+                🚨  Microphone permission denied. Allow microphone to use voice typing.
+            </div>
+            <div id="info_blocked" style="display: none;">
+                🚨  Microphone permission blocked. To change, go to <a href="about:invalid#zSoyz">chrome://settings/contentExceptions#media-stream</a>
+            </div>
+            <div id="info_upgrade" style="display: none;">
+                🚨  This facility is not supported by your browser. Upgrade to <a href="https://www.google.com/chrome" target="_blank">Chrome</a>.
+            </div>
+        </div>
     </center>
-   <br />
-  <center>
-<div class="flex-box" style="padding-left: 25px;">
-<select id="select_language" onchange="updateCountry()" placeholder="Select Language" style="background-color: white; border-radius: 7px; border: 0.5px solid rgb(76, 76, 76); color: rgba(0, 0, 0, 0.93); font-family: &quot;hammersmith one&quot;; font-size: 10.5px; font-weight: 300; margin-left: 22px; margin: 1px 0px 1px 22px; padding-left: 07px; padding-right: 3px; padding: 3px 3px 3px 7px; width: 60%;"></select>
-<select id="select_dialect" style="margin: 1px 0px; padding: 0px;"></select>
-<buttona id="start_button" onclick="startButton(event)" style="margin-right: 46px;" title="Click and Start Speaking"><img alt="Start" height="30" id="start_img" src="https://1.bp.blogspot.com/-CBsejIaAWqw/YJPvdR-vEfI/AAAAAAAAE80/n4d9QYhp0KMyagZX0lmDa8J0GmSGA0TAwCLcBGAsYHQ/s16000/PicsArt_05-06-06.58.24.jpg" width="64" /></buttona></div>
-</center>
-
-    <br />
-     <center>
-       <p style="color:white; text-align: center; font-size: 13px;">Your message (optional) :</p>
-<textarea id="final_span" name="text" style="background-color: white; border-radius: 15px; border: 2px; box-sizing: border-box; font-family: &quot;hammersmith one&quot;; font-size: 15px; height: 80px; min-width: 20%; padding: 8px; resize: none; width: 87%;"></textarea> </center>
-    
- <center><button class="ak-button-gd" type="submit"><b><i class="fa fa-whatsapp"></i> Send Now</b></button></center>
-
-    
- </form></div>
-  
-  <br />
-<center><span style="font-size:x-small;">
-Your mobile number &amp; vocals will not be stored on our server.<br />Read our <a href="https://epgsk.blogspot.com/p/you-can-use-our-services-in-variety-of.html"><u>Privacy Policy</u></a> here.</span></center>
-  
-<br />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <div class="ak-div-wa">
+        <center>
+            <b><font color="white">Send  <i class="fa fa-whatsapp" style="padding-left: 6px; padding-right: 4px;"></i> direct message ..</font></b>
+        </center>
+        <form action="https://api.whatsapp.com/send" method="GET">
+            <center>
+                <iconify-icon data-icon="bx:bxs-phone" style="background: rgb(0, 5, 53); border-bottom-left-radius: 15px; border-top-left-radius: 15px; color: white; font-size: 37px; padding-left: 8px;"></iconify-icon>
+                <input class="ak-input" maxlength="12" minlength="12" name="phone" inputmode="numeric"  value="91" required/>
+            </center>
+            <center>
+                <div class="flex-box" style="padding-left: 25px;">
+                    <select id="select_language" onchange="updateCountry()" placeholder="Select Language" style="background-color: white; border-radius: 7px; border: 0.5px solid rgb(76, 76, 76); color: rgba(0, 0, 0, 0.93); font-family: &quot;hammersmith one&quot;; font-size: 10.5px; font-weight: 300; margin-left: 22px; margin: 1px 0px 1px 22px; padding-left: 07px; padding-right: 3px; padding: 3px 3px 3px 7px; width: 60%;"></select>
+                    <select id="select_dialect" style="margin: 1px 0px; padding: 0px;"></select>
+                    <buttona id="start_button" onclick="startButton(event)" title="Click and Start Speaking"><img alt="Start" height="30" id="start_img" src="https://1.bp.blogspot.com/-CBsejIaAWqw/YJPvdR-vEfI/AAAAAAAAE80/n4d9QYhp0KMyagZX0lmDa8J0GmSGA0TAwCLcBGAsYHQ/s16000/PicsArt_05-06-06.58.24.jpg" width="64" /></buttona>
+                </div>
+            </center>
+            <center>
+                <p style="color:white; text-align: center; font-size: 13px;">Your message (optional) :</p>
+                <textarea id="final_span" name="text" style="background-color: white; border-radius: 15px; border: 2px; box-sizing: border-box; font-family: &quot;hammersmith one&quot;; font-size: 15px; height: 80px; min-width: 20%; padding: 8px; resize: none; width: 87%;"></textarea>
+            </center>
+            <center><button class="ak-button-gd" type="submit"><b><i class="fa fa-whatsapp"></i> Send Now</b></button></center>
+        </form>
+    </div>
+    <center><span style="font-size:x-small;">
+    Your mobile number &amp; vocals will not be stored on our server.<br />Read our <a href="https://epgsk.blogspot.com/p/you-can-use-our-services-in-variety-of.html"><u>Privacy Policy</u></a> here.
+    </span></center>
+</body>
+</html>
