@@ -4,7 +4,7 @@
 </i></h3>
 <be>
 
-<img src=' https://github.com/JaiRajGunnu/whatsappdm/assets/78605621/83ae2d53-9eaa-4925-8500-a7b8be6a12d0' width='100%'>
+<img src='https://github.com/JaiRajGunnu/whatsappdm/assets/78605621/83ae2d53-9eaa-4925-8500-a7b8be6a12d0' width='100%'>
 <p align='center'><i>An sample refrence screenshot.</i></p>
 
 <h3>Links:</h3>
